@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 //        db = Room.databaseBuilder(this, AppDatabase.class, "todo_db")
-//                .allowMainThreadQueries()
+//                .allowMainThreadQueries() // MainThread 에서 실행
 //                .build();
 
         db = Room.databaseBuilder(this, AppDatabase.class, "todo_db").build();
